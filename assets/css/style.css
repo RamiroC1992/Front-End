@@ -1,0 +1,73 @@
+.bg-negro   /*Pone negro la barra de navegacion (donde esta el logo de Argentina Programa)*/
+{
+    background-color: black;
+}
+
+.list-group-item        /*Vuelve transparente a las redes sociales*/
+{
+    background-color: transparent;
+}
+
+.fa-brands.fa-facebook.fa-1x:hover      /*Cambia el color cuando se pasa el mouse sobre el icono de facebook*/
+{
+    --bs-text-opacity: 1;
+    color: #3b5998 !important;
+}
+
+.fa-brands.fa-instagram.fa-1x:hover     /*Cambia el color cuando se pasa el mouse sobre el icono de instagram*/
+{
+    --bs-text-opacity: 1;
+    color: #3f729b !important;
+}
+
+.fa-brands.fa-github.fa-1x:hover     /*Cambia el color cuando se pasa el mouse sobre el icono de github*/
+{
+    --bs-text-opacity: 1;
+    color: #171515 !important;
+}
+
+section.banner      /*Seccion del banner donde el url es la direccion donde esta la imagen*/
+{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)),  url(../img/Fondo2.webp);      /*Hae una escala de grises sobre la imagen para que se vea mas oscura*/
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-zise: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+}
+
+.pt-3a
+{
+    height: 6vh;
+}
+
+.login
+{
+    height: 80vh;
+}
+
+.formulario-login
+{
+    margin-top: 7%;
+}
+
+.fotoPerfil
+{
+    width: 60%;
+}
+
+.text-li
+{
+    font-size: 2 rem;
+}
+
+.link
+{
+    text-decoration: none;
+    color: black;
+}
