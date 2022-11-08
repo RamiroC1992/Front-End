@@ -100,3 +100,8 @@ a, a:hover
 {
 	text-decoration: none;
 }
+
+.last
+{
+    padding-bottom: 5rem;
+}

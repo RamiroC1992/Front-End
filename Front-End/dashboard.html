@@ -46,13 +46,19 @@
                         <a class="list-group-item list-group-item-action active" id="list-redes-list" data-bs-toggle="list" href="#list-redes" role="tab" aria-controls="list-redes"> <i class="fa-solid fa-hashtag"> Redes</i></a>
                     </li>
                     <li class="vertical">
-                        <a class="list-group-item list-group-item-action" id="list-banner-list" data-bs-toggle="list" href="#list-banner" role="tab" aria-controls="list-banner-list"> <i class="fa-solid fa-image"> Banner</i></a>
+                        <a class="list-group-item list-group-item-action" id="list-banner-list" data-bs-toggle="list" href="#list-banner" role="tab" aria-controls="list-banner"> <i class="fa-solid fa-image"> Banner</i></a>
                     </li>
                     <li class="vertical">
                         <a class="list-group-item list-group-item-action" id="list-info-list" data-bs-toggle="list" href="#list-info" role="tab" aria-controls="list-info"> <i class="fa-solid fa-circle-info"> Informacion</i></a>
                     </li>
                     <li class="vertical">
-                        <!--aqui van todos los nombres de las secciones-->
+                        <a class="list-group-item list-group-item-action" id="list-educacion-list" data-bs-toggle="list" href="#list-educacion" role="tab" aria-controls="list-educacion"> <i class="fa-solid fa-school"> Educacion</i></a>
+                    </li>
+                    <li class="vertical">
+                        <a class="list-group-item list-group-item-action" id="list-skills-list" data-bs-toggle="list" href="#list-skills" role="tab" aria-controls="list-skills"> <i class="fa-solid fa-toolbox"> Skills</i></a>
+                    </li>
+                    <li class="vertical">
+                        <a class="list-group-item list-group-item-action" id="list-proyectos-list" data-bs-toggle="list" href="#list-proyectos" role="tab" aria-controls="list-proyectos"> <i class="fa-solid fa-list-check"> Proyectos</i></a>
                     </li>
                 </ul>
             </nav>
@@ -77,7 +83,7 @@
                             <button type="button" class="btn btn-primary">Actualizar</button>
                             <button type="button" class="btn btn-danger">Eliminar</button>
                             <div class="my-3">
-                                <label for="instagra," class="form-label">Instagram</label>
+                                <label for="instagram" class="form-label">Instagram</label>
                                 <input type="text" class="form-control" id="instagram">
                             </div>
                             <button type="button" class="btn btn-success">Guardar</button>
@@ -98,7 +104,7 @@
                         <form>
                             <div class="my-3">
                                 <label for="banner" class="form-label">Banner</label>
-                                <input type="text" class="form-control" id="banner">
+                                <input class="form-control" type="file" id="banner">
                             </div>
                             <button type="button" class="btn btn-success">Guardar</button>
                             <button type="button" class="btn btn-primary">Actualizar</button>
@@ -119,7 +125,157 @@
                         </form>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Para hacer para las otras secciones solo copiar el mismo codigo de arriba</div>
+                <div class="tab-pane fade" id="list-educacion" role="tabpanel" aria-labelledby="list-educacion-list">
+                    <div class="container px-5">
+                        <form>
+                            <!--Por cada foto nueva que quiera agregar en el carrusel tengo que
+                                hacer una copia del div de abajo y cambiarle el nombre del label for y del id-->
+                            <div class="my-3">
+                                <label for="educacionFotoUno" class="form-label">Educacion</label>
+                                <input class="form-control" type="file" id="educacionFotoUno">
+                            </div>
+                            <button type="button" class="btn btn-success">Guardar</button>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-danger">Eliminar</button>
+
+                            <div class="my-3">
+                                <label for="educacionFotoDos" class="form-label">Educacion</label>
+                                <input class="form-control" type="file" id="educacionFotoDos">
+                            </div>
+                            <button type="button" class="btn btn-success">Guardar</button>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-danger">Eliminar</button>
+
+                            <div class="my-3">
+                                <label for="educacionFotoTres" class="form-label">Educacion</label>
+                                <input class="form-control" type="file" id="educacionFotoTres">
+                            </div>
+                            <button type="button" class="btn btn-success">Guardar</button>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-danger">Eliminar</button>
+
+                            <div class="my-3">
+                                <label for="educacionFotoCuatro" class="form-label">Educacion</label>
+                                <input class="form-control" type="file" id="educacionFotoCuatro">
+                            </div>
+                            <button type="button" class="btn btn-success">Guardar</button>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-danger">Eliminar</button>
+
+                            <div class="my-3">
+                                <label for="educacionFotoCinco" class="form-label">Educacion</label>
+                                <input class="form-control" type="file" id="educacionFotoCinco">
+                            </div>
+                            <button type="button" class="btn btn-success">Guardar</button>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-danger">Eliminar</button>
+
+                            <!--div class="my-3">
+                                <label for="educacionFotoSeis" class="form-label">Educacion</label>
+                                <input class="form-control" type="file" id="educacionFotoSeis">
+                            </div>
+                            <button type="button" class="btn btn-success">Guardar</button>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-danger">Eliminar</button-->
+
+                            <!--div class="my-3 last">
+                                <label for="educacionFotoSiete" class="form-label">Educacion</label>
+                                <input class="form-control" type="file" id="educacionFotoSiete">
+                            </div>
+                            <button type="button" class="btn btn-success">Guardar</button>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-danger">Eliminar</button-->
+                        </form>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="list-skills" role="tabpanel" aria-labelledby="list-skills-list">
+                    <div class="container px-5">
+                        <form>
+                            <div class="row">
+                                <div class=" col-6 my-3">
+                                    <label for="skillUno" class="form-label">Skill</label>
+                                    <input type="text" class="form-control" id="skillUno">
+                                </div>
+                                <div class="col-6 my-3">
+                                    <label for="porcentajeUno" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control" id="porcentajeUno">
+                                </div>
+                            </div>
+                                <button type="button" class="btn btn-success">Guardar</button>
+                                <button type="button" class="btn btn-primary">Actualizar</button>
+                                <button type="button" class="btn btn-danger">Eliminar</button>
+                            
+                            <div class="row">
+                                <div class=" col-6 my-3">
+                                    <label for="skillDos" class="form-label">Skill</label>
+                                    <input type="text" class="form-control" id="skillDos">
+                                </div>
+                                <div class="col-6 my-3">
+                                    <label for="porcentajeDos" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control" id="porcentajeDos">
+                                </div>
+                            </div>
+                                <button type="button" class="btn btn-success">Guardar</button>
+                                <button type="button" class="btn btn-primary">Actualizar</button>
+                                <button type="button" class="btn btn-danger">Eliminar</button>
+                            
+                            <div class="row">
+                                <div class=" col-6 my-3">
+                                    <label for="skillTres" class="form-label">Skill</label>
+                                    <input type="text" class="form-control" id="skillTres">
+                                </div>
+                                <div class="col-6 my-3">
+                                    <label for="porcentajeUno" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control" id="porcentajeUno">
+                                </div>
+                            </div>
+                                <button type="button" class="btn btn-success">Guardar</button>
+                                <button type="button" class="btn btn-primary">Actualizar</button>
+                                <button type="button" class="btn btn-danger">Eliminar</button>
+                            
+                            <div class="row">
+                                <div class=" col-6 my-3">
+                                    <label for="skillCuatro" class="form-label">Skill</label>
+                                    <input type="text" class="form-control" id="skillCuatro">
+                                </div>
+                                <div class="col-6 my-3">
+                                    <label for="porcentajeCuatro" class="form-label">Porcentaje</label>
+                                    <input type="text" class="form-control" id="porcentajeCuatro">
+                                </div>
+                            </div>
+                                <button type="button" class="btn btn-success">Guardar</button>
+                                <button type="button" class="btn btn-primary">Actualizar</button>
+                                <button type="button" class="btn btn-danger">Eliminar</button>
+                            
+                        </form>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="list-proyectos" role="tabpanel" aria-labelledby="list-proyectos-list">
+                    <div class="container px-5">
+                        <form>
+                            <div class="my-3">
+                                <label for="tituloUno" class="form-label">Titulo</label>
+                                <input type="text" class="form-control" id="tituloUno">
+                            </div>
+                            <div class="my-3">
+                                <label for="imagenUno" class="form-label">Imagen</label>
+                                <input class="form-control" type="file" id="imagenUno">
+                            </div>
+                            <div class="my-3">
+                                <label for="descripcionUno" class="form-label">Descripcion</label>
+                                <textarea class="form-control" id="descripcionUno" style="height: 100px"></textarea>
+                            </div>
+                            <div class="my-3">
+                                <label for="enlaceUno" class="form-label">Enlace</label>
+                                <input type="text" class="form-control" id="enlaceUno">
+                            </div>
+                            <button type="button" class="btn btn-success">Guardar</button>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-danger">Eliminar</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
